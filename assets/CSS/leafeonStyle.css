@@ -59,6 +59,23 @@ li{
     list-style: none;
 }
 
+.textFt{
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 17px;
+    color:#202329;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+    padding: auto;
+}
+.subsTit{
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
 /*
     color: #f492a5;
     color: #f9cbd0;
