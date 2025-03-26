@@ -1,0 +1,133 @@
+#fondo{
+    background-color: #fcdbb6;;
+    margin-bottom: 0px;
+}
+#BkgTit{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a390145-1e80-4c9f-bea4-6f11959496cd/del304o-a42b2fab-d054-4ae3-be0b-dcb50b429172.jpg/v1/fill/w_1280,h_720,q_75,strp/pokeball_wallpaper_by_blackholekun_del304o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvM2EzOTAxNDUtMWU4MC00YzlmLWJlYTQtNmYxMTk1OTQ5NmNkXC9kZWwzMDRvLWE0MmIyZmFiLWQwNTQtNGFlMy1iZTBiLWRjYjUwYjQyOTE3Mi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uUBZCvo3rUs5zwjD83BHcfVX8H_E70EkJqrgIRqBCaw');
+}
+.Title{
+    color: #FF5722;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-left:100px;
+    text-align: center;
+    margin-bottom:-65px;
+}
+#menuImg{
+    text-align: center;
+    height: 30%;
+    padding-bottom: -10;
+    margin-bottom: -20;
+    border-bottom-width: -20;
+    height: 200px;
+}
+#menuBar{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #FF414D;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+mark{
+    background: #D92027!important;
+    color:white;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.txtConfig{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+hr {
+    border-color: #D92027;
+  }
+summary::marker {
+    content: "";
+  }
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+li{
+    list-style: none;
+}
+
+/*
+    color: #f492a5;
+    color: #f9cbd0;
+    color: #f7e8d8;
+    color: #6e82b7;
+    color: #95daf8;
+*/
+#titlePag{
+    margin-left: 90px;
+    color: #633c15;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.titleMarg{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#position1{
+    display: flex;
+    margin-top: 0px;
+}
+.textIntro{
+    margin-left: 80px;
+    width: 80%;
+    color: #332011;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textFact{
+    margin-left: 100px;
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #332011;
+}
+#type{
+    display: flex;
+}
+#typeImg{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+.imgRef{
+    height: 400px;
+    margin-right: 70px;
+    margin: 50px;
+}
+.textUnder{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: 70px;
+    color: #633c15;
+}
+
+
+
+#textEnd{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #332011;
+    background-color: #c5915d;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+}
+#linkFor{
+    color:#462709;
+}
