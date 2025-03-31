@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/formulario.css">
+    <title>Create Eeveelution</title>
+</head>
+
+<body id="fondo">
+
+    <header id="BkgTit">
+        <div class="useTitle">
+            <h1 class="Title">EEVEELUTIONS</h1>
+        </div>
+        <div id="menuImg">
+            <img style="height: 200px;" src="./assets/img/eveHeader.png" alt="">
+        </div>
+        <div id="menuBar">
+            <nav>
+                <ul class="menu">
+                    <li> <a class="txtConfig" href="./index.html"><b>Home</b></a></li>
+                    <li>
+                        <details>
+                            <summary><b>Seacrhing for...?</b></summary>
+                            <hr>
+                            <p><a class="txtConfig" href="./sylveonPg.html">Sylveon</a></p>
+                            <p><a class="txtConfig" href="./flareonPg.html">Flareon</a></p>
+                            <p><a class="txtConfig" href="./jolteonPg.html">Jolteon</a></p>
+                            <p><a class="txtConfig" href="leafeonPg.html">Leafeon</a></p>
+                            <p><a class="txtConfig" href="eeveePg.html">Eevee</a></p>
+                            <p><a class="txtConfig" href="glaceonPg.html">Glaceon</a></p>
+                            <p><a class="txtConfig" href="vaporeonPg.html">Vaporeon</a></p>
+                            <p><a class="txtConfig" href="espeonPg.html">Espeon</a></p>
+                            <p><a class="txtConfig" href="umbreon.html">Umbreon</a></p>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary><b>More Info </b></summary>
+                            <hr>
+                            <div>
+                                <p><b class="subsTit">WHAT IS POKEMON?</b> <br> <a class="textFt"
+                                        href="https://sg.portal-pokemon.com/about/">Read this !</a></p>
+                            </div>
+                            <div>
+                                <p><b class="subsTit">WHAT IS AN EEVEELUTION?</b> <br> <a class="textFt"
+                                        href="https://pokemon.fandom.com/wiki/Eeveelution">Read this !</a></p>
+                            </div>
+                            <div>
+                                <p><b class="subsTit">WHY PLAY POKEMON? <br> <small>and became a little too much
+                                            obssesed with it</small> </b> <br> <a class="textFt"
+                                        href="https://www.gamesradar.com/never-played-pokemon-heres-why-you-should/">Read
+                                        this !</a></p>
+                            </div>
+                        </details>
+                    </li>
+                    <li> <a class="txtConfig" href="./formularo.html"><mark><b>Create ur Eeveelution</b></mark></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <h1 class="subTitle">Create Your Very Own Eeveelution!!!</h1>
+        <h2 id="sbTit">Lets get started</h2>
+        <form id="frm">
+
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label for="name">Name :</label>
+                <br>
+                <input style="text-align: center;" id="name" type="text" placeholder="Enter its name">
+                <br>
+                <label for="type">Pokemon Type : </label>
+                <br>
+                <select id="type">
+                    <option disabled selected>Seleccione una opcion</option>
+                    <option value="1">Bug</option>
+                    <option value="2">Dark</option>
+                    <option value="3">Dragon</option>
+                    <option value="4">Electric</option>
+                    <option value="5">Fairy</option>
+                    <option value="6">Fighting</option>
+                    <option value="7">Fire</option>
+                    <option value="8">Flying</option>
+                    <option value="9">Ghost</option>
+                    <option value="10">Grass</option>
+                    <option value="11">Ground</option>
+                    <option value="12">Ice</option>
+                    <option value="13">Normal</option>
+                    <option value="14">Poison</option>
+                    <option value="15">Psychic</option>
+                    <option value="16">Rock</option>
+                    <option value="17">Steel</option>
+                    <option value="18">Water</option>
+                </select>
+                <br>
+                <label for="habilities">Habilities (choose up to 3) :</label>
+                <br>
+                <div class="opt">
+                    <div>
+                        <input id="Absorb" type="checkbox" value="Absorb">
+                        <label for="Absorb">Absorb</label>
+                    </div>
+
+                    <div>
+                        <input id="Ancient Power" type="checkbox" value="Ancient Power">
+                        <label for="Ancient Power">Ancient Power</label>
+                    </div>
+
+                    <div>
+                        <input id="Brine" type="checkbox" value="Brine">
+                        <label for="Brine">Brine</label>
+                    </div>
+
+                    <div>
+                        <input id="Close Combat" type="checkbox" value="Close Combat">
+                        <label for="Close Combat">Close Combat</label>
+                    </div>
+
+                    <div>
+                        <input id="Copycat" type="checkbox" value="Copycat">
+                        <label for="Copycat">Copycat</label>
+                    </div>
+                    <div>
+                        <input id="Curse" type="checkbox" value="Curse">
+                        <label for="Curse">Curse</label>
+                    </div>
+                </div>
+
+            </fieldset>
+            <fieldset>
+
+                <legend>Apearence and Personality</legend>
+                <p>Choose the color pallet of your pokemon : </p>
+                <div id="clr">
+                    <div>
+                        <label for="color1">1st Color</label> <br>
+                        <input id="color1" type="color">
+                    </div>
+                    <div>
+                        <label for="color2">2nd Color</label> <br>
+                        <input id="color2" type="color">
+                    </div>
+                    <div>
+                        <label for="color3">3rd Color</label> <br>
+                        <input id="color3" type="color">
+                    </div>
+                </div>
+                <br>
+                <label for="desc">Personality :</label>
+                <input id="desc" type="text" placeholder="Enter a short description about your Eeveelution">
+
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+
+    </main>
+
+</body>
+
+</html>
